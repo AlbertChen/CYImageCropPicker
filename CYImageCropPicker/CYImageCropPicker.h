@@ -15,6 +15,8 @@
 
 @property (nonatomic, copy) void (^completion)(UIImagePickerController *pickerController, UIImage *image, BOOL canceled);
 
-- (void)showPickerFromController:(UIViewController *)controller withSourceType:(UIImagePickerControllerSourceType)sourceType completion:(void (^)(UIImagePickerController *pickerController, UIImage *image, BOOL canceled))completion;
+- (void)showPickerFromController:(UIViewController *)controller
+                  withSourceType:(UIImagePickerControllerSourceType)sourceType
+                      completion:(void (^)(UIImagePickerController *pickerController, UIImage *image, BOOL canceled))completion;
 
 @end

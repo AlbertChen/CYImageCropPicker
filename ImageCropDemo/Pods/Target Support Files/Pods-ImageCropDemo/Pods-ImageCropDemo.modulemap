@@ -1,0 +1,6 @@
+framework module Pods_ImageCropDemo {
+  umbrella header "Pods-ImageCropDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

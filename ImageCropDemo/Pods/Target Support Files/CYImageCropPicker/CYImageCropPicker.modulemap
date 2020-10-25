@@ -1,0 +1,6 @@
+framework module CYImageCropPicker {
+  umbrella header "CYImageCropPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

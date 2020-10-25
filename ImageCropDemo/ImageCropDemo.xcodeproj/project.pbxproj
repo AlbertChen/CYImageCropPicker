@@ -7,11 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0264A3CA479ED6FC7CA29A41 /* Pods_ImageCropDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA000EB7579CC65089CAB816 /* Pods_ImageCropDemo.framework */; };
 		DE7BE9521F455C6B00354540 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE7BE9511F455C6B00354540 /* Localizable.strings */; };
-		DEAA09111F528AC3005D13ED /* CYImageCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAA090A1F528AC3005D13ED /* CYImageCropOverlayView.m */; };
-		DEAA09121F528AC3005D13ED /* CYImageCropPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAA090C1F528AC3005D13ED /* CYImageCropPicker.m */; };
-		DEAA09131F528AC3005D13ED /* CYImageCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAA090E1F528AC3005D13ED /* CYImageCropView.m */; };
-		DEAA09141F528AC3005D13ED /* CYImageCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAA09101F528AC3005D13ED /* CYImageCropViewController.m */; };
 		DEEA0F641F44271F00E5C256 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEA0F631F44271F00E5C256 /* main.m */; };
 		DEEA0F671F44271F00E5C256 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEA0F661F44271F00E5C256 /* AppDelegate.m */; };
 		DEEA0F6A1F44271F00E5C256 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEA0F691F44271F00E5C256 /* ViewController.m */; };
@@ -22,15 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36BA53A8F01E8274F48A9C6E /* Pods-ImageCropDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageCropDemo.debug.xcconfig"; path = "Target Support Files/Pods-ImageCropDemo/Pods-ImageCropDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C1C8A5EE3DCC2479F5604F45 /* Pods-ImageCropDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageCropDemo.release.xcconfig"; path = "Target Support Files/Pods-ImageCropDemo/Pods-ImageCropDemo.release.xcconfig"; sourceTree = "<group>"; };
 		DE7BE9511F455C6B00354540 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
-		DEAA09091F528AC3005D13ED /* CYImageCropOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYImageCropOverlayView.h; sourceTree = "<group>"; };
-		DEAA090A1F528AC3005D13ED /* CYImageCropOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYImageCropOverlayView.m; sourceTree = "<group>"; };
-		DEAA090B1F528AC3005D13ED /* CYImageCropPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYImageCropPicker.h; sourceTree = "<group>"; };
-		DEAA090C1F528AC3005D13ED /* CYImageCropPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYImageCropPicker.m; sourceTree = "<group>"; };
-		DEAA090D1F528AC3005D13ED /* CYImageCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYImageCropView.h; sourceTree = "<group>"; };
-		DEAA090E1F528AC3005D13ED /* CYImageCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYImageCropView.m; sourceTree = "<group>"; };
-		DEAA090F1F528AC3005D13ED /* CYImageCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYImageCropViewController.h; sourceTree = "<group>"; };
-		DEAA09101F528AC3005D13ED /* CYImageCropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYImageCropViewController.m; sourceTree = "<group>"; };
 		DEEA0F5F1F44271E00E5C256 /* ImageCropDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageCropDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEEA0F631F44271F00E5C256 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEEA0F651F44271F00E5C256 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,6 +33,7 @@
 		DEEA0F711F44271F00E5C256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEEA0F731F44271F00E5C256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEEA0F8E1F4444A800E5C256 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA000EB7579CC65089CAB816 /* Pods_ImageCropDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageCropDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,25 +42,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEEA0F8F1F4444A800E5C256 /* CoreGraphics.framework in Frameworks */,
+				0264A3CA479ED6FC7CA29A41 /* Pods_ImageCropDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DEAA09081F528AC3005D13ED /* CYImageCropPicker */ = {
+		D7DCA752CE234C2711323F4D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DEAA09091F528AC3005D13ED /* CYImageCropOverlayView.h */,
-				DEAA090A1F528AC3005D13ED /* CYImageCropOverlayView.m */,
-				DEAA090B1F528AC3005D13ED /* CYImageCropPicker.h */,
-				DEAA090C1F528AC3005D13ED /* CYImageCropPicker.m */,
-				DEAA090D1F528AC3005D13ED /* CYImageCropView.h */,
-				DEAA090E1F528AC3005D13ED /* CYImageCropView.m */,
-				DEAA090F1F528AC3005D13ED /* CYImageCropViewController.h */,
-				DEAA09101F528AC3005D13ED /* CYImageCropViewController.m */,
+				36BA53A8F01E8274F48A9C6E /* Pods-ImageCropDemo.debug.xcconfig */,
+				C1C8A5EE3DCC2479F5604F45 /* Pods-ImageCropDemo.release.xcconfig */,
 			);
-			path = CYImageCropPicker;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		DEEA0F561F44271E00E5C256 = {
@@ -78,6 +65,7 @@
 				DEEA0F8C1F44448F00E5C256 /* Framworks */,
 				DEEA0F601F44271E00E5C256 /* Products */,
 				DEEA0F8D1F4444A800E5C256 /* Frameworks */,
+				D7DCA752CE234C2711323F4D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,7 +80,6 @@
 		DEEA0F611F44271E00E5C256 /* ImageCropDemo */ = {
 			isa = PBXGroup;
 			children = (
-				DEAA09081F528AC3005D13ED /* CYImageCropPicker */,
 				DEEA0F651F44271F00E5C256 /* AppDelegate.h */,
 				DEEA0F661F44271F00E5C256 /* AppDelegate.m */,
 				DEEA0F681F44271F00E5C256 /* ViewController.h */,
@@ -126,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				DEEA0F8E1F4444A800E5C256 /* CoreGraphics.framework */,
+				EA000EB7579CC65089CAB816 /* Pods_ImageCropDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -137,9 +125,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DEEA0F761F44271F00E5C256 /* Build configuration list for PBXNativeTarget "ImageCropDemo" */;
 			buildPhases = (
+				E59EAE078CFEF00C989261B1 /* [CP] Check Pods Manifest.lock */,
 				DEEA0F5B1F44271E00E5C256 /* Sources */,
 				DEEA0F5C1F44271E00E5C256 /* Frameworks */,
 				DEEA0F5D1F44271E00E5C256 /* Resources */,
+				D804E4DB5A038322FFA2907A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -171,6 +161,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -198,18 +189,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D804E4DB5A038322FFA2907A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImageCropDemo/Pods-ImageCropDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CYImageCropPicker/CYImageCropPicker.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CYImageCropPicker.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ImageCropDemo/Pods-ImageCropDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E59EAE078CFEF00C989261B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImageCropDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DEEA0F5B1F44271E00E5C256 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DEEA0F6A1F44271F00E5C256 /* ViewController.m in Sources */,
-				DEAA09141F528AC3005D13ED /* CYImageCropViewController.m in Sources */,
 				DEEA0F671F44271F00E5C256 /* AppDelegate.m in Sources */,
 				DEEA0F641F44271F00E5C256 /* main.m in Sources */,
-				DEAA09111F528AC3005D13ED /* CYImageCropOverlayView.m in Sources */,
-				DEAA09131F528AC3005D13ED /* CYImageCropView.m in Sources */,
-				DEAA09121F528AC3005D13ED /* CYImageCropPicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +357,7 @@
 		};
 		DEEA0F771F44271F00E5C256 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36BA53A8F01E8274F48A9C6E /* Pods-ImageCropDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZF6TVZV5SQ;
@@ -340,6 +371,7 @@
 		};
 		DEEA0F781F44271F00E5C256 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1C8A5EE3DCC2479F5604F45 /* Pods-ImageCropDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZF6TVZV5SQ;

@@ -1,0 +1,16 @@
+PODS:
+  - CYImageCropPicker (0.0.1)
+
+DEPENDENCIES:
+  - CYImageCropPicker (from `../`)
+
+EXTERNAL SOURCES:
+  CYImageCropPicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CYImageCropPicker: ce2e65e83c8008b865edff59133df303bbbbc96c
+
+PODFILE CHECKSUM: eca5be8aca75a76ce424bd4be274a5b4252c2c09
+
+COCOAPODS: 1.9.1
