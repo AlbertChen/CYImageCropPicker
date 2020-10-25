@@ -15,7 +15,6 @@
 		DEEA0F6D1F44271F00E5C256 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEEA0F6B1F44271F00E5C256 /* Main.storyboard */; };
 		DEEA0F6F1F44271F00E5C256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEEA0F6E1F44271F00E5C256 /* Assets.xcassets */; };
 		DEEA0F721F44271F00E5C256 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEEA0F701F44271F00E5C256 /* LaunchScreen.storyboard */; };
-		DEEA0F8F1F4444A800E5C256 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEA0F8E1F4444A800E5C256 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +40,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEEA0F8F1F4444A800E5C256 /* CoreGraphics.framework in Frameworks */,
 				0264A3CA479ED6FC7CA29A41 /* Pods_ImageCropDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
